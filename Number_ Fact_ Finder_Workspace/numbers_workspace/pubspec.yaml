@@ -1,0 +1,9 @@
+name: numbers_workspace
+publish_to: none
+environment:
+  sdk: '^3.8.1'
+
+workspace:
+  - terminal_colors
+  - numbers_api
+  - numbers_cli

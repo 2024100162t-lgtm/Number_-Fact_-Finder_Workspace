@@ -1,0 +1,16 @@
+name: numbers_cli
+description: Command-line interface for Number Fact Finder.
+version: 1.0.0
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: '^3.8.1'
+
+dependencies:
+  http: ^1.2.0
+  logging: ^1.2.0
+  terminal_colors:
+    path: ../terminal_colors
+  numbers_api:
+    path: ../numbers_api
